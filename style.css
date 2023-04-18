@@ -95,6 +95,17 @@ li {
     right: 40px;
 }
 
+#check_dark {
+    cursor: pointer;
+    position: absolute;
+    right: 90px;
+}
+
+#Dark_check {
+    position: absolute;
+    right: 80px;
+}
+
 
 /* sign in form */
 
