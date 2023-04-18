@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <a href="#" class="logo">
+            <img src="img/logo.png">
+            <h2>LOGO</h2>
+        </a>
+        <ul class="nav-list">
+            <li class="active">Home</li>
+            <li>Gallary</li>
+            <li>Reviews</li>
+        </ul>
+        <img src="img/moon.png" id="D_M_Icon">
+    </header>
+
+    <!-- login form -->
+
+    <div class="main">
+        <img src="img/sign4.png" id="sign1">
+        <h2>sign in</h2>
+
+        <form action="/action_page.php">
+
+            <p> <label for="username"> First Name : </label> </p>
+            <input type="text" placeholder="First Name" id="username" required autofocus>
+
+            <br>
+
+            <p> <label for="lastName"> Last Name : </label> </p>
+            <input type="text" placeholder="Last Name" id="lastName" required>
+
+            <br>
+
+            <input type="submit" value="submit">
+
+            <br>
+            <div class="terms">
+                <input type="checkbox" name="Terms" id="agree">
+                <label for="agree">I agree <a href="#">terms and conditions</a></label>
+            </div>
+
+
+
+        </form>
+
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <p>all copyright reversed &copy;</p>
+    </footer>
+
+
+
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+
+</html>
